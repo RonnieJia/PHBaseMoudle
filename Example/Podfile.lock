@@ -1,0 +1,70 @@
+PODS:
+  - ESTabBarController-swift (2.8.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (4.10.1)
+  - MBProgressHUD (1.2.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PHBaseMoudle (1.0.0):
+    - ESTabBarController-swift (~> 2.8.0)
+    - PHUtils
+    - SwiftyJSON (~> 5.0.0)
+  - PHUtils (1.0.0):
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MBProgressHUD (~> 1.2.0)
+    - NVActivityIndicatorView (~> 4.8.0)
+    - RxCocoa (~> 5.1.1)
+    - RxSwift (~> 5.1.1)
+    - SnapKit
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - PHBaseMoudle (from `../`)
+  - PHUtils (= 1.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MBProgressHUD
+    - NVActivityIndicatorView
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+  https://github.com/RonnieJia/PHSpec.git:
+    - PHUtils
+  trunk:
+    - ESTabBarController-swift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  PHBaseMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PHBaseMoudle: 48aa9fe2548aedbef624347bc0009582c4bac903
+  PHUtils: 3574490d81c5336fa00a5d8bdaa87ee12d240ef7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: d3c248ba9cf13f2a4dc5215ecfd8ade2d35cd718
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module PHBaseMoudle {
+  umbrella header "PHBaseMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

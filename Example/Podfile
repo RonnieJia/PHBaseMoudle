@@ -1,0 +1,16 @@
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/RonnieJia/PHSpec.git'
+
+target 'PHBaseMoudle_Example' do
+  pod 'PHBaseMoudle', :path => '../'
+  
+  pod 'PHUtils', '1.0.0'
+
+  target 'PHBaseMoudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

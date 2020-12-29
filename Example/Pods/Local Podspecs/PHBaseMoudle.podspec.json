@@ -1,0 +1,38 @@
+{
+  "name": "PHBaseMoudle",
+  "version": "1.0.0",
+  "summary": "A short description of PHBaseMoudle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ronniejia/PHBaseMoudle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ronniejia": "jiapinghui@baijiahulian.com"
+  },
+  "source": {
+    "git": "https://github.com/Ronniejia/PHBaseMoudle.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PHBaseMoudle/Classes/**/*",
+  "resource_bundles": {
+    "PHBaseMoudle": [
+      "PHBaseMoudle/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "PHUtils": [
+
+    ],
+    "SwiftyJSON": [
+      "~> 5.0.0"
+    ],
+    "ESTabBarController-swift": [
+      "~> 2.8.0"
+    ]
+  }
+}
